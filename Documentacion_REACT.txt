@@ -22,4 +22,15 @@ enlazar el repositrio en la nube con el local:
 git remote add origin https://github.com/JonathanDD25/React_cursos.git
 git push -u origin main
 
+comprobar el estado del proyecto:
+git status
 
+comandos para actualizar el repositorio en la versión local:
+git add .
+git commit -m "nombre de la versión de la descripción del commit"
+git push
+
+crear ramas:
+git checkout -b nombre de la rama
+git switch -c nombre de la rama
+git push origin nombre de la rama
